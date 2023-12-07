@@ -11,7 +11,7 @@
 body {
     background-image: url("../img/bg03 copy.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     display: grid;
     color: #000000;
