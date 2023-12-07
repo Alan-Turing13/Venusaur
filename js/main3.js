@@ -1,4 +1,4 @@
-var createTodoUrl = "localhost:63343/untitled/todo.html";
+var createTodoUrl = "https://alan-turing13.github.io/todo.html";
 
 // {# 1: MAKE THE TODO ITEMS #}
 function display_task() {
