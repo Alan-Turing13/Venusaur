@@ -9,7 +9,10 @@
 
 /* BACKGROUND */
 body {
-    background: url("../img/bg03 copy.jpg");
+    background-image: url("../img/bg03 copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     color: #000000;
     grid: auto / auto;
