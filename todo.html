@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Todo list</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="css/todo.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+</head>
+
+<body>
+<a href="index.html" style= "font-family: 'DIN Condensed'; font-size: small; color: #FFC286;">
+    ⬅(Back to main site)</a>
+
+<header id="header">
+    <h1 class="header-1">To-do</h1>
+    <p id="date"></p>
+</header>
+
+<!-- TASK ENTRY -->
+<form id="task-entry" method="post" action="#javascript:void(0);">
+    <p>Task:
+      <input
+        type="text"
+        id="todo-item"
+        name="task"
+        required="required"
+        placeholder="I need to..."
+        class="inputbox"
+      />
+    <input type="submit" value="Add Task"/>
+</form>
+
+<h1 class="header-2">List</h1>
+
+<!--{# TO-DO ITEMS #}-->
+<ul>
+<div id="task-container"></div>
+</ul>
+
+<!--{# FOOTER #}-->
+<div id='updated-at'></div>
+
+<!-- JAVASCRIPT -->
+<script src="js/main.js"></script>
+<script src="js/todo.js"></script>
+<script src="js/main3.js"></script>
+</body>
+</html>
