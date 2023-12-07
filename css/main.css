@@ -7,6 +7,14 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/* BACKGROUND */
+body {
+    background: url("../img/bg01.jpg");
+    color: #F0EBE3;
+    display: grid;
+    grid: auto / auto;
+}
+
 /* NAV BAR */
 ul {
   list-style-type: none;
