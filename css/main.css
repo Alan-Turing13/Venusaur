@@ -11,6 +11,7 @@
 body {
     background: url("../las meninas copy.jpeg");
     display: grid;
+    color: #F0EBE3;
     grid: auto / auto;
 }
 
