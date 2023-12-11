@@ -17,6 +17,7 @@ function invalidAnswer() {console.log("invalid answer")}
 
 function death() {DEATH.play();}
 function complete() {COMPLETE.play();}
+function bearLife() {BEARLIFE.play();}
 
 function waitForInput(gameState) {
   return new Promise(resolve => {
@@ -87,8 +88,8 @@ async function fast() {
     hideInputBox();
     printText(["\nThe bear is charging at you.\n",
   "\nThe two of you eventually manage to work out an arrangement, but over the months to come,\n" +
-  "\nyou find yourself completely unfulfilled by the bear way of life.\n"]);
-    setTimeout(death, 4000);
+  "\nyou find yourself unfulfilled by the bear way of life, always wondering what might have been.\n"]);
+    setTimeout(bearLife, 4000);
   }
   else invalidAnswer();
 }
