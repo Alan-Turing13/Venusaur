@@ -1,6 +1,8 @@
 const TEXTBOX = document.getElementById("userInput");
 const DEATH = new Audio("../DEATH.wav");
 const COMPLETE = new Audio("../COMPLETE.wav");
+const BEAR = new Audio("../BEARLIFE.wav");
+
 
 TEXTBOX.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
@@ -17,7 +19,7 @@ function invalidAnswer() {console.log("invalid answer")}
 
 function death() {DEATH.play();}
 function complete() {COMPLETE.play();}
-function bearLife() {BEARLIFE.play();}
+function bearLife() {BEAR.play();}
 
 function waitForInput(gameState) {
   return new Promise(resolve => {
