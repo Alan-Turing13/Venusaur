@@ -82,7 +82,7 @@ async function fast() {
     printText(["\nYou lock yourself in and pray to Santa.\t*\t*\t*\n",
     "\n3 and a half hours later you wake up in a cold sweat to some boisterous elves" +
 	"shouting at you in a strange language.\n", "\nAlthough festive in appearance, they shoot you and leave.\n"])
-    setTimeout(death, 2000);
+    setTimeout(death, 6000);
   }
   else if (choice === "turn") {
     hideInputBox();
