@@ -131,6 +131,7 @@ async function slow() {
   }
   else if (choice === "keep on") {
     hideInputBox();
+    resetInput();
     printText(["\nyou're walking for another few hundred metres, barely able to stand, " +
     "until you spot a motorway service station.\n",
       "\nyou go into McDonald's and pick up someone's Fanta and down all of it in one.\n",
