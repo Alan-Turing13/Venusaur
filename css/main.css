@@ -48,8 +48,8 @@ active {
 }
 
 .certificate {
-  max-height: 50%;
-  max-width: auto;
+  max-width: 40%;
+  height: auto;
   display: grid;
 }
 
