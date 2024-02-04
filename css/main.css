@@ -48,6 +48,12 @@ active {
   background-color: lightpink;
 }
 
+.programs {
+  width: 366px;
+  height: auto;
+  display: grid;
+}
+
 .certificate {
   width: 777px;
   height: auto;
