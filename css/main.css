@@ -1,5 +1,6 @@
 /* BACKGROUND */
 body {
+    max-width: 88%;
     background-image: url("../img/bg03 copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
