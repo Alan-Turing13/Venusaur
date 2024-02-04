@@ -55,16 +55,22 @@ active {
 }
 
 .certificate {
-  width: 777px;
+  max-width: 777px;
   height: auto;
   display: grid;
 }
 
 /* TEXT */
 h1 {
+  font-family: Didot;
   margin-top: 66px;
   margin-inline: 11px;
+}
+
+h3 {
   font-family: Didot;
+  margin-inline: 11px;
+
 }
 
 p {margin-inline: 11px;}
