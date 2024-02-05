@@ -13,6 +13,8 @@ body {
 
 /* NAV BAR */
 ul {
+  position: fixed;
+  z-index: 1000;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,7 +48,7 @@ active {
 }
 
 .programs {
-  max-width: 444px;
+  max-width: 80%;
   margin-top: 22px;
   height: auto;
   display: grid;
