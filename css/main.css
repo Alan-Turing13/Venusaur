@@ -71,13 +71,53 @@ h1 {
 
 h3 {
   font-family: 'Didot', sans-serif;
-  margin-inline: 33px;
+  font-size: x-large;
 }
 
 p {
   font-family: 'Raigen Blues', sans-serif;
-  margin-inline: 33px;
   }
+
+@media (min-width: 600px){
+  h3 {
+    margin-inline: 16px;
+    font-size: large;
+  }
+
+  ul {
+    font-size: small;
+  }
+
+  ul li a {
+    margin-inline: 18px;
+    padding: 7px 8px;
+  }
+  
+  p {
+    font-size: small;
+    margin-inline: 16px;
+  }
+}
+@media (min-width: 1200px){
+  h3 {
+    margin-inline: 33px;
+    font-size: x-large;
+  }  
+
+  ul {
+    font-size: large;
+  }
+
+  ul li a {
+    margin-inline: 33px;
+    padding: 14px 16px;
+  }
+  
+  p {
+    font-size: medium;
+    margin-inline: 33px;
+  }
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
